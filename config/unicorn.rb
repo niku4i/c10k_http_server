@@ -2,14 +2,14 @@
 # note the trailing slash in this example
 @dir = Dir.getwd
 
-worker_processes 2
+worker_processes 32
 working_directory @dir
 
-timeout 30
+timeout 10
 
 # Specify path to socket unicorn listens to, 
 # we will use this in our nginx.conf later
-listen "#{@dir}/tmp/sockets/unicorn.sock", :backlog => 64
+listen "/tmp/unicorn.sock", :backlog => 64
 
 # Set process id path
 pid "#{@dir}/tmp/pids/unicorn.pid"
