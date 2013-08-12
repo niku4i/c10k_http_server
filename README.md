@@ -10,7 +10,7 @@ Stub HTTP server sample for the performance test.
 
 Just
 
-    rackup
+  bundle exec unicorn -c config/unicorn.rb -p 10000
 
 ## Contributing
 
