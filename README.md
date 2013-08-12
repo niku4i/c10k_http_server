@@ -8,7 +8,9 @@ Stub HTTP server sample for the performance test.
 
 ## Usage
 
-TODO: Write usage instructions here
+Just
+
+    rackup
 
 ## Contributing
 
