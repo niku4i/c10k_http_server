@@ -8,9 +8,7 @@ Stub HTTP server sample for the performance test.
 
 ## Usage
 
-Just
-
-  bundle exec unicorn -c config/unicorn.rb -p 10000
+  bundle exec foreman start
 
 ## Contributing
 
